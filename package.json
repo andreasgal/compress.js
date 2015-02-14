@@ -1,6 +1,6 @@
 {
   "name": "uncompress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node library to uncompress UNIX-style compress (.Z) files.",
   "main": "index.js",
   "scripts": {
