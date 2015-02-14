@@ -5,7 +5,7 @@
 
 var BitStream = require('bit-buffer').BitStream;
 
-function decompress(bb) {
+function uncompress(bb) {
   var bs = new BitStream(bb);
   if (bs.readBits(8) != 0x1f || bs.readBits(8) != 0x9d)
     throw new Error('invalid header');
@@ -44,11 +44,4 @@ function decompress(bb) {
   return out;
 }
 
-module.exports = {
-  decompress: decompress,
-};
-
-require('fs').readFile('x.Z', function (err, data) {
-  if (err) throw err;
-  decompress(data);
-});
+module.exports = uncompress;

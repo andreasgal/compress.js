@@ -1,6 +1,6 @@
 {
   "name": "uncompress",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node library to uncompress UNIX-style compress (.Z) files.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andreasgal/compress.js.git"
+    "url": "https://github.com/andreasgal/uncompress.js.git"
   },
   "keywords": [
     "compress",
@@ -17,9 +17,9 @@
   "author": "Andreas Gal <andreas.gal@gmail.com>",
   "license": "Apache",
   "bugs": {
-    "url": "https://github.com/andreasgal/compress.js/issues"
+    "url": "https://github.com/andreasgal/uncompress.js/issues"
   },
-  "homepage": "https://github.com/andreasgal/compress.js",
+  "homepage": "https://github.com/andreasgal/uncompress.js",
   "dependencies": {
     "bit-buffer": "0.0.3"
   }
