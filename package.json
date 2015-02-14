@@ -1,0 +1,26 @@
+{
+  "name": "compress",
+  "version": "1.0.0",
+  "description": "Node library to compress UNIX-style compress (LZW) files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreasgal/compress.js.git"
+  },
+  "keywords": [
+    "compress",
+    "uncompress"
+  ],
+  "author": "Andreas Gal <andreas.gal@gmail.com>",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/andreasgal/compress.js/issues"
+  },
+  "homepage": "https://github.com/andreasgal/compress.js",
+  "dependencies": {
+    "bit-buffer": "0.0.3"
+  }
+}
