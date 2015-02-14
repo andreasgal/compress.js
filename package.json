@@ -1,7 +1,7 @@
 {
-  "name": "compress",
+  "name": "uncompress",
   "version": "1.0.0",
-  "description": "Node library to compress UNIX-style compress (LZW) files.",
+  "description": "Node library to uncompress UNIX-style compress (LZW) files.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
